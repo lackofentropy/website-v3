@@ -1,5 +1,5 @@
 function summary(text, limit) {
-    text = text.replace("/p/processhacker/code/", "https://sourceforge.net/p/processhacker/code/");
+    // text = text.replace("/p/processhacker/code/", "https://sourceforge.net/p/processhacker/code/");
     if (text.length > limit) {
         text = text.substring(0, limit);
         text = text.replace(/\s*$/, "");
@@ -87,7 +87,7 @@ window.onload = function() {
         forumfeedpointer.setNumEntries(5);
         forumfeedpointer.load(DisplayForumfeed);
 
-        var sourcefeedpointer = new google.feeds.Feed("http://sourceforge.net/p/processhacker/code/feed"); // http://sourceforge.net/p/processhacker/activity/feed
+        var sourcefeedpointer = new google.feeds.Feed("https://github.com/processhacker2/processhacker2/commits/master.atom"); // http://sourceforge.net/p/processhacker/code/feed
         sourcefeedpointer.setNumEntries(5);
         sourcefeedpointer.load(DisplaySvnFeed);
     }

@@ -1,36 +1,87 @@
 <?php $pagetitle = "FAQ"; include "include/header.php"; ?>
 
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+				<h3>Frequently Asked Questions</h3>
+				</br>
+                <!--<p class="headline main-headline">
+                   Frequently Asked Questions
+                </p>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="container">
+	<div class="row">
+		<div class="phinfobox warning">
+			<p class="first phinfobox-title"><i class="glyphicon glyphicon-info-sign"></i> Warning</p>
+			<p class="last">Some warning test.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="phinfobox tip">
+			<p class="first phinfobox-title"><i class="glyphicon glyphicon-info-sign"></i> Tip</p>
+			<p class="last">Some tip.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="phinfobox note">
+			<p class="first phinfobox-title"><i class="glyphicon glyphicon-info-sign"></i> Note</p>
+			<p class="last">Some note.</p>
+		</div>
+	</div>
+</div>	-->
+
 <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-9">
-            <h1 class="page-header" id="page-padding"><small>Frequently Asked Questions</small></h1>
+			<section id="GroupA">
+				<h3>Is "Process Hacker" a dangerous "hacking" tool?</h3>
+				 No. Please read about the <a href="http://catb.org/~esr/faqs/hacker-howto.html#what_is">correct definition of "hacker"</a>.
+			</section>
 
-            <h3>Is "Process Hacker" a dangerous "hacking" tool?</h3>
-                No. Please read about the <a href="http://catb.org/~esr/faqs/hacker-howto.html#what_is">correct definition of "hacker"</a>.
-
-            <hr>
-            <h3>Is Process Hacker a portable application?</h3>
+			<section id="GroupB">
+				<h3>Is Process Hacker a portable application?</h3>
                 Yes. In the same directory as <code>ProcessHacker.exe</code>, create a file named <code>ProcessHacker.exe.settings.xml</code>, settings will then be automatically saved here.
+			</section>
 
-            <hr>
-            <h3>Process Hacker can kill my anti-virus software! Is this a bug in the anti-virus software?</h3>
-                No. Please do not report these incidents as bugs because you will be wasting their time.
-
-            <hr>
+			<section id="GroupC">
+				<h3>Process Hacker can kill my anti-virus software! Is this a bug in the anti-virus software?</h3>
+                No. Anti-virus software does not protect you from yourself. Please do not report these incidents as bugs because you will be wasting their time.
+			</section>
+			
+			<section id="GroupD">
                 <h3>Why is Process Hacker able to kill processes that no other tools can kill?</h3>
-                    Process Hacker loads a driver that searches for an internal Microsoft kernel function and uses it for process termination. 
-                    This function is not known to be hooked by malware or security software.
-
-            <hr>
-            <h3>Why is there annoying bug X in Process Hacker? Why is Process Hacker missing feature Y?</h3>
-                    Please report any bugs or feature requests in the <a href="/forums">forums</a>.
-
-            <hr>
+                Process Hacker loads a driver that searches for an internal Microsoft kernel function and uses it for process termination. 
+                This function is not known to be hooked by malware or security software.
+			</section>
+			
+			<section id="GroupE">
+				<h3>Why is there annoying bug X in Process Hacker? Why is Process Hacker missing feature Y?</h3>
+                Please report any bugs or feature requests in the <a href="/forums">forums</a>.
+			</section>
+			
+			<section id="GroupF">
                 <h3>Why can't I build Process Hacker?</h3>
-                    The most likely problem is that you do not have the latest Windows SDK installed.<br>
-                    Windows 7, Windows 8 and 8.1 SDK: <a href="http://msdn.microsoft.com/en-US/windows/desktop/bg162891">Windows 8.1 SDK</a>
-
-            <hr>
+                The most likely problem is that you do not have the latest Windows SDK installed.<br>
+                Windows 7, Windows 8 and 8.1 SDK: <a href="http://msdn.microsoft.com/en-US/windows/desktop/bg162891">Windows 8.1 SDK</a>
+				<br>
+				<br>
+                You can also debug plugins by configured the plugin Solution properties > Debugger options.
+                <br><br>
+                For example:<br>
+                Debugger Command: <code>$(SolutionDir)..\bin\$(Configuration)$(PlatformArchitecture)\ProcessHacker.exe</code><br>
+                Working Directory: <code>$(SolutionDir)..\bin\$(Configuration)$(PlatformArchitecture)\</code>
+				<br><br>Note: This is already configured for all of our plugins but you will need to configure your own plugins.
+			</section>
+			
+			<section id="GroupG">
                 <h3>Symbols don't work properly!</h3>
       			Firstly, you need the latest <code>dbghelp.dll</code> version:<br>
                 <br>
@@ -53,35 +104,37 @@
                 <code>SRV*SOME_FOLDER*http://msdl.microsoft.com/download/symbols</code><br><br>
                 Replace <code>SOME_FOLDER</code> with any folder you can write to, like <code>D:\Symbols</code>.
                 Now you can restart Process Hacker and view full symbols.
+			</section>
 
-            <hr>
-                <h3>Why can't I debug my plugin?</h3>
-      			The most likely problem is that you have not configured the plugin Solution properties > Debugger options.<br>
-                <br>
-                For example; Debugging current plugins can be configured using the following settings:<br>
-                Debugger Command: <code>$(SolutionDir)..\bin\$(Configuration)$(PlatformArchitecture)\ProcessHacker.exe</code><br>
-                Working Directory: <code>$(SolutionDir)..\bin\$(Configuration)$(PlatformArchitecture)\</code>
-
-            <hr>
-            <h3>Anti-cheat software reports Process Hacker as a game cheating tool!</h3>
-      		Unfortunately there is nothing much that can be done about this. Report issues with Anti-cheat software to <a href="about.php">dmex</a>.
+			<section id="GroupI">
+				<h3>Anti-cheat software reports Process Hacker as a game cheating tool!</h3>
+      		    Report issues with Anti-cheat software to <a href="about.php">dmex</a>.
+			</section>
         </div>
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="page-padding">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Quick Links</h3>
-                </div>
-                <div class="list-group">
-                    <a href="forums/viewforum.php?f=5" target="_blank" class="list-group-item"><i class="glyphicon glyphicon-comment"></i> Ask a question</a>
-                    <a href="forums/viewforum.php?f=24" target="_blank" class="list-group-item"><i class="glyphicon glyphicon-fire"></i> Report a bug</a>
-                    <a href="http://sourceforge.net/projects/processhacker/" target="_blank" class="list-group-item"><i class="glyphicon glyphicon-globe"></i> SourceForge project page</a>
-                    <a href="http://sourceforge.net/p/processhacker/code/" target="_blank" class="list-group-item"><i class="glyphicon glyphicon-check"></i> Browse source code</a>
-                    <a href="http://processhacker.sourceforge.net/doc/" target="_blank" class="list-group-item"><i class="glyphicon glyphicon-edit"></i> Source code documentation</a>
-                </div>
-            </div>
+			<nav class="col-xs-3 bs-docs-sidebar">
+				<ul id="sidebar" class="nav nav-stacked fixed" style="background-color: #f8f8f8; border: 1px solid #eee;">
+					<li><a href="#GroupA">Is "Process Hacker" a dangerous "hacking" tool?</a></li>
+					<li><a href="#GroupB">Is Process Hacker a portable application?</a></li>
+					<li><a href="#GroupC">Process Hacker can kill my anti-virus software!</a></li>
+					<li><a href="#GroupD">Why is Process Hacker able to kill processes?</a></li>
+					<li><a href="#GroupE">Why is there annoying bug X in Process Hacker?</a></li>
+					<li><a href="#GroupF">Why can't I build Process Hacker?</a></li>
+					<li><a href="#GroupG">Symbols don't work properly!</a></li>
+					<li><a href="#GroupI">I got banned by Anticheat!</a></li>
+					<li><a class="back-to-top" href="#top"> Back to top </a></li>
+				</ul>
+			</nav>
         </div>
     </div>
 </div>
 
 <?php include "include/footer.php"; ?>
+
+<script type="text/javascript">
+$('body').scrollspy({
+    target: '.bs-docs-sidebar',
+    offset: 1
+});
+</script>

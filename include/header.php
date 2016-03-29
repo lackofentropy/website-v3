@@ -17,9 +17,9 @@ header("Content-Type: text/html; charset=utf-8");
 
         <link rel="shortcut icon" href="favicon.ico"/>
 
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
-        <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="include/css/lightbox.css"/>
+        <link rel="stylesheet" type="text/css" href="include/css/custom.css"/>
 
         <link rel="alternate" type="application/atom+xml" href="forums/feed.php?f=1" title="Process Hacker - News"/>
         <link rel="alternate" type="application/atom+xml" href="http://sourceforge.net/p/processhacker/code/feed" title="Process Hacker - SVN"/>
@@ -34,8 +34,8 @@ header("Content-Type: text/html; charset=utf-8");
         <?php if ($pagetitle == 'Overview') {
                 echo "<script type=\"text/javascript\" src=\"//www.google.com/jsapi\"></script>
         <script type=\"text/javascript\">google.load(\"feeds\", \"1\");</script>
-        <script type=\"text/javascript\" src=\"js/feed.js\"></script>
-        <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js\"></script>";
+        <script type=\"text/javascript\" src=\"include/js/feed.js\"></script>
+        <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js\"></script>";
         } ?>
     </head>
 <body>
@@ -49,18 +49,17 @@ header("Content-Type: text/html; charset=utf-8");
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">
-                <img style="float:left" alt="SourceForge logo" title="" width="24" height="24" src="img/logo_64x64.png">
-                <span style="padding-left:5px;">Process Hacker</span>
-            </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li style="width: 28px; top: 10px;">
+                    <img title="" width="24" height="24" src="include/img/logo_64x64.png">
+                </li>
                 <li <?php if ($pagetitle == 'Overview') echo "class=\"active\"" ?>><a href="index.php">Overview</a></li>
                 <li <?php if ($pagetitle == 'Downloads') echo "class=\"active\"" ?>><a href="downloads.php">Downloads</a></li>
                 <li <?php if ($pagetitle == 'FAQ') echo "class=\"active\"" ?>><a href="faq.php">FAQ</a></li>
                 <li <?php if ($pagetitle == 'About') echo "class=\"active\"" ?>><a href="about.php">About</a></li>
-                <li><a href="/processhacker/forums" target="_blank">Forum</a></li>
+                <li><a href="/processhacker/forums">Forum</a></li>
             </ul> 
         </div>
     </div>

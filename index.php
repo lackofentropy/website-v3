@@ -1,6 +1,6 @@
 <?php $pagetitle = "Overview"; include "include/header.php"; ?>
 
-<div class="jumbotron">
+<div class="jumbotron jumbotron-index">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -22,11 +22,11 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container" style="padding-top: 35px;padding-bottom: 35px;">
     <div class="row">
         <div class="col-sm-4">
-            <a class="thumbnail" href="img/screenshots/main_window.png" data-lightbox="image-screenshot" data-title="Main Window">
-                <img class="img-responsive" src="img/screenshots/main_window.png">
+            <a class="thumbnail" href="include/img/screenshots/main_window.png" data-lightbox="image-screenshot" data-title="Main Window">
+                <img class="img-responsive" src="include/img/screenshots/main_window_small.jpg" width="393px" height="261px">
             </a>
         </div>
         <div class="col-sm-8">
@@ -45,8 +45,8 @@
             You can double-click the graph to see information about the process at that data point, even if the process is no longer running.</p>
         </div>
         <div class="col-sm-4">
-            <a class="thumbnail" href="img/screenshots/sysinfo_trimmed_1.png" data-lightbox="image-screenshot" data-title="System Information Window">
-                <img class="img-responsive" src="img/screenshots/sysinfo_trimmed_1.png">
+            <a class="thumbnail" href="include/img/screenshots/sysinfo_trimmed_1.png" data-lightbox="image-screenshot" data-title="System Information Window">
+                <img class="img-responsive" src="include/img/screenshots/sysinfo_trimmed_1_small.jpg" width="393px" height="194px">
             </a>
         </div>
     </div>
@@ -55,8 +55,8 @@
 
     <div class="row">
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/find_handles.png" data-lightbox="image-screenshot" data-title="Find Handles Window">
-                <img class="img-responsive" src="img/screenshots/find_handles.png">
+            <a class="thumbnail" href="include/img/screenshots/find_handles.png" data-lightbox="image-screenshot" data-title="Find Handles Window">
+                <img class="img-responsive" src="include/img/screenshots/find_handles.png">
             </a>
         </div>
         <div class="col-sm-8">
@@ -74,8 +74,8 @@
             <h2>See what programs have active network connections, and close them if necessary.</h2>
         </div>
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/network.png" data-lightbox="image-screenshot" data-title="Network Tab">
-                <img class="img-responsive" src="img/screenshots/network.png">
+            <a class="thumbnail" href="include/img/screenshots/network.png" data-lightbox="image-screenshot" data-title="Network Tab">
+                <img class="img-responsive" src="include/img/screenshots/network.png">
             </a>
         </div>
     </div>
@@ -84,8 +84,8 @@
 
     <div class="row">    
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/disk_tab.png" data-lightbox="image-screenshot" data-title="Disk Tab">
-                <img class="img-responsive" src="img/screenshots/disk_tab.png">
+            <a class="thumbnail" href="include/img/screenshots/disk_tab.png" data-lightbox="image-screenshot" data-title="Disk Tab">
+                <img class="img-responsive" src="include/img/screenshots/disk_tab.png">
             </a>
         </div>
         <div class="col-sm-8"><h2>Get real-time information on disk access.</h2>
@@ -101,8 +101,8 @@
             <p>Tip: Hover your cursor over the first column (with the numbers) to view parameter and line number information when available.</p>
         </div>     
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/thread_stack.png" data-lightbox="image-screenshot" data-title="Thread Stack">
-                <img class="img-responsive" src="img/screenshots/thread_stack.png">
+            <a class="thumbnail" href="include/img/screenshots/thread_stack.png" data-lightbox="image-screenshot" data-title="Thread Stack">
+                <img class="img-responsive" src="include/img/screenshots/thread_stack.png">
             </a>
         </div>
     </div>
@@ -111,8 +111,8 @@
 
     <div class="row">
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/services.png" data-lightbox="image-screenshot" data-title="services Tab">
-                <img class="img-responsive" src="img/screenshots/services.png">
+            <a class="thumbnail" href="include/img/screenshots/services.png" data-lightbox="image-screenshot" data-title="services Tab">
+                <img class="img-responsive" src="include/img/screenshots/services.png">
             </a>
         </div>
         <div class="col-sm-8">
@@ -129,8 +129,8 @@
             <p>Capabilities, Claims, Permissions, Integrity Control, Symbols, Statistics, Peformance, Threads, Tokens, Modules, Memory, Environement Variables, Handles, Services, GPU, Disk, Network, Terminator, DLL Injector, VirusTotal Uploader, Jotti Uploader, Comodo Uploader, Priority, Protection, Ping, Tracert, Whois... and much more!</p>
         </div>     
         <div class="col-sm-4">          
-            <a class="thumbnail" href="img/screenshots/menu.png" data-lightbox="image-screenshot" data-title="Process Menu">
-                <img class="img-responsive" src="img/screenshots/menu.png">
+            <a class="thumbnail" href="include/img/screenshots/menu.png" data-lightbox="image-screenshot" data-title="Process Menu">
+                <img class="img-responsive" src="include/img/screenshots/menu.png">
             </a>
         </div>
     </div>

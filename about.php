@@ -17,16 +17,18 @@
             <h1 class="page-header"><small>Members</small></h1>
             <div class="container">
                 <a class="thumbnail pull-left" href="http://sourceforge.net/users/wj32/">
-                    <img class="media-object" src="http://www.gravatar.com/avatar/4dab4ece81a9b8832323ef2f73fcf12e">
+                    <img class="media-object" src="//www.gravatar.com/avatar/4dab4ece81a9b8832323ef2f73fcf12e">
                 </a>
                 <div class="col-md-8">
-                    <a class="thumbnail pull-right" href="http://www.ohloh.net/p/processhacker/contributors/1415904688650589" target="_blank">
-                        <img class="media-object" src="http://www.ohloh.net/accounts/47453/widgets/account_rank.gif" alt="Ohloh kudos" />
-                        <img class="media-object" src="http://www.ohloh.net/p/processhacker/contributors/144925/commits_spark.png" alt="wj32 commit history" width="182" height="32"/>
+                    <a class="thumbnail pull-right" href="http://www.openhub.net/p/processhacker/contributors/1415904688650589" target="_blank">
+                        <img class="media-object" src="//www.openhub.net/accounts/47453/widgets/account_rank.gif" alt="Ohloh kudos" />
+                        <img class="media-object" src="//www.openhub.net/p/processhacker/contributors/1415904688650589/commits_spark.png" alt="wj32 commit history" width="182" height="32"/>
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading">wj32</h4>
                         <small><cite title="Source Title">Project Founder</cite></small>
+						</br>
+						<a href="https://github.com/wj32">Github Profile</a>
                     </div>
                 </div>
             </div>
@@ -35,16 +37,18 @@
                 
             <div class="container">
                 <a class="thumbnail pull-left" href="http://sourceforge.net/users/dmex/">
-                    <img class="media-object" src="http://www.gravatar.com/avatar/989904e05fb257009009d2c6e2c8808f">
+                    <img class="media-object" src="//www.gravatar.com/avatar/989904e05fb257009009d2c6e2c8808f">
                 </a>
                 <div class="col-md-8">
-                    <a class="thumbnail pull-right" href="http://www.ohloh.net/p/processhacker/contributors/1415904688659470" target="_blank">
-                        <img class="media-object" src="http://www.ohloh.net/accounts/56334/widgets/account_rank.gif" alt="Ohloh kudos" />
-                        <img class="media-object" src="http://www.ohloh.net/p/processhacker/contributors/368201/commits_spark.png" alt="dmex commit history" width="182" height="32"/>
+                    <a class="thumbnail pull-right" href="http://www.openhub.net/p/processhacker/contributors/1415904688659470" target="_blank">
+                        <img class="media-object" src="//www.openhub.net/accounts/56334/widgets/account_rank.gif" alt="Ohloh kudos" />
+                        <img class="media-object" src="//www.openhub.net/p/processhacker/contributors/368201/commits_spark.png" alt="dmex commit history" width="182" height="32"/>
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading">dmex</h4>
                         <small><cite title="Source Title">Project Maintainer</cite></small>
+						</br>
+						<a href="https://github.com/dmex">Github Profile</a>
                     </div>
                 </div>
             </div>
@@ -53,16 +57,18 @@
                 
             <div class="container">
                 <a class="thumbnail pull-left" href="http://sourceforge.net/users/xhmikosr/">
-                    <img class="media-object" src="http://www.gravatar.com/avatar/e37759b1ea0125d4e97b1e00b5eed26f">
+                    <img class="media-object" src="//www.gravatar.com/avatar/e37759b1ea0125d4e97b1e00b5eed26f">
                 </a>
                 <div class="col-md-8">
-                    <a class="thumbnail pull-right" href="http://www.ohloh.net/p/processhacker/contributors/1415904688663640" target="_blank">
-                        <img class="media-object" src="http://www.ohloh.net/accounts/60504/widgets/account_rank.gif" alt="Ohloh kudos" />
-                        <img class="media-object" src="http://www.ohloh.net/p/processhacker/contributors/145086/commits_spark.png" alt="XhmikosR commit history" width="182" height="32"/>
+                    <a class="thumbnail pull-right" href="http://www.openhub.net/p/processhacker/contributors/1415904688663640" target="_blank">
+                        <img class="media-object" src="//www.openhub.net/accounts/60504/widgets/account_rank.gif" alt="Ohloh kudos" />
+                        <img class="media-object" src="//www.openhub.net/p/processhacker/contributors/145086/commits_spark.png" alt="XhmikosR commit history" width="182" height="32"/>
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading">XhmikosR</h4>
-                            <small><cite title="Source Title">Installer Maintainer, Website improvements</cite></small>
+                        <small><cite title="Source Title">Installer Maintainer</cite></small>
+						</br>
+						<a href="https://github.com/XhmikosR">Github Profile</a>
                     </div>
                 </div>
             </div>
@@ -70,15 +76,8 @@
             <div class="container">
                 <h1 class="page-header"><small>Ohloh Stats</small></h1>
                 <div class="pull-left">
-                    <script src="http://www.ohloh.net/p/processhacker/widgets/project_basic_stats.js"></script>
+                    <script type='text/javascript' src='//www.openhub.net/p/processhacker/widgets/project_basic_stats?format=js'></script>
                 </div>
-            </div>
-            
-            <div class="container">
-                <a href="https://scan.coverity.com/projects/684">
-                  <img alt="Coverity Scan Build Status"
-                       src="https://scan.coverity.com/projects/684/badge.svg"/>
-                </a>
             </div>
         </div>
     
